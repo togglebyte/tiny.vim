@@ -6,7 +6,7 @@ if exists("b:current_syntax")
 endif
 
 " Todo
-syn match tinyComment "^\s*\/\/.*$" contains=tinyTodo
+syn match tinyComment "\/\/.*$" contains=tinyTodo
 syn keyword tinyTodo TODO HACK NOTE contained
 
 " Attributes
