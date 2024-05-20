@@ -1,4 +1,4 @@
-au BufRead,BufNewFile *.tiny setfiletype tiny
-autocmd FileType tiny setlocal commentstring=//\ %s
+au BufRead,BufNewFile *.aml setfiletype aml
+autocmd FileType aml setlocal commentstring=//\ %s
 set nospell
 set nowrap

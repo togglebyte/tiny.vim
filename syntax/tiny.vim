@@ -23,7 +23,7 @@ syn region tinyString start='"' end='"' contains=tinyData
 " Variables
 syn region tinyData start='{{' end='}}'
 
-let b:current_syntax = "tiny"
+let b:current_syntax = "aml"
 
 hi def link tinyElement         Statement
 hi def link tinyValue           Constant
